@@ -3,12 +3,12 @@
 Este proyecto consiste en la creación de una página web que muestra datos sobre la esperanza de vida global. La página está estructurada en tres archivos principales: HTML, CSS y JavaScript. Utiliza varias librerías y CDNs para proporcionar una experiencia interactiva y visualmente atractiva.
 
 ## 📁 Estructura de Archivos
-
+---
 ├── index.html # Archivo principal HTML
 ├── styles.css # Archivo de estilos CSS
 ├── script.js # Archivo de funcionalidades JavaScript
 ├── README.md # Documentación del proyecto
-
+---
 ## 📂 Estructura del Proyecto
 
 ### 📄 HTML
