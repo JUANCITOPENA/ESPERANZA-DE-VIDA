@@ -1,0 +1,141 @@
+  .card-group {
+      margin-bottom: 20px;
+  }
+
+  .chart-container {
+      position: relative;
+      margin: auto;
+      height: 40vh;
+      width: 80vw;
+  }
+
+  :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #3498db;
+      --accent-color: #e74c3c;
+      --background-color: #f8f9fa;
+      --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--primary-color);
+  }
+
+  .navbar {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      padding: 1rem 0;
+  }
+
+  .navbar-brand {
+      color: white !important;
+      font-weight: bold;
+  }
+
+  .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: var(--card-shadow);
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+      transform: translateY(-5px);
+  }
+
+  .card-header {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      border-radius: 15px 15px 0 0 !important;
+      padding: 1.5rem;
+  }
+
+  .table {
+      margin-bottom: 0;
+  }
+
+  .table th {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+  }
+
+  .table td {
+      vertical-align: middle;
+  }
+
+  .table tr:hover {
+      background-color: rgba(52, 152, 219, 0.1);
+  }
+
+  .gender-icon {
+      margin-right: 0.5rem;
+  }
+
+  .male-icon {
+      color: var(--secondary-color);
+  }
+
+  .female-icon {
+      color: var(--accent-color);
+  }
+
+  .search-box {
+      max-width: 300px;
+      margin-bottom: 1rem;
+  }
+
+  .region-filter {
+      max-width: 200px;
+      margin-bottom: 1rem;
+  }
+
+  .stats-card {
+      background: linear-gradient(135deg, #2980b9, #3498db);
+      color: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+  }
+
+  .stats-number {
+      font-size: 2rem;
+      font-weight: bold;
+  }
+
+  .source-link {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: color 0.3s ease;
+  }
+
+  .source-link:hover {
+      color: var(--secondary-color);
+  }
+
+  @media (max-width: 768px) {
+      .table-responsive {
+          margin: 0 -15px;
+      }
+
+      .card-body {
+          padding: 1rem;
+      }
+
+      .stats-card {
+          margin-bottom: 1rem;
+      }
+  }
+
+  .card-group {
+      margin-bottom: 20px;
+  }
+
+  .chart-container {
+      position: relative;
+      margin: auto;
+      height: 40vh;
+      width: 80vw;
+  }
